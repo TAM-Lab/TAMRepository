@@ -1,0 +1,2 @@
+# TAM-Lab Repository
+The TAM-Lab model repository contains a variety of machine learning and natural language processing methods. We collect and integrate basic natural language processing methods, such as word segmentation, pre-processing, pre-training, and downstream tasks. Using the repository allows for a faster understanding of a particular domain, running relevant models, and reducing repetitive work. We will continue to update the repository and welcome any comments and new ideas to make it better used for everyone.

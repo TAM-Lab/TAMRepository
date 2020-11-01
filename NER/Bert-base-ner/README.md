@@ -25,15 +25,15 @@ Each line represents the value of the evaluation metrics in the corresponding ca
 ##### **Validation Data**
 
 ```
-	  		   precision  recall   f1-score   support
+               precision  recall   f1-score   support
 
         PER     0.9697    0.9739    0.9718      1842
         LOC     0.9689    0.9662    0.9676      1837
        MISC     0.8967    0.9132    0.9049       922
         ORG     0.9186    0.9254    0.9220      1341
 
-micro avg		0.9485    0.9512	0.9485	    5942
-macro avg		0.7508    0.7558    0.7533      5942
+micro avg       0.9485    0.9512    0.9485      5942
+macro avg       0.7508    0.7558    0.7533      5942
 weighted avg    0.9466    0.9512    0.9489      5942
 ```
 
@@ -42,13 +42,13 @@ weighted avg    0.9466    0.9512    0.9489      5942
 **Test Data**
 
 ```
-				precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
         LOC     0.9244    0.9311    0.9277      1668
         ORG     0.8800    0.9139    0.8966      1661
         PER     0.9607    0.9536    0.9572      1617
        MISC     0.7860    0.8319    0.8083       702
-micro avg		0.9030    0.9201    0.9115      5648
+micro avg       0.9030    0.9201    0.9115      5648
 macro avg       0.7102    0.7261    0.7180      5648
 weighted avg    0.9045    0.9201    0.9122      5648
 ```

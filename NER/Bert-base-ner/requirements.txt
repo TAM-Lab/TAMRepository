@@ -1,0 +1,9 @@
+transformers==5.5.1
+torch==1.4.0
+# metric
+seqeval==0.0.5
+# training progressbar
+tqdm==4.31.1
+# tokeniztion
+nltk==3.4.5
+

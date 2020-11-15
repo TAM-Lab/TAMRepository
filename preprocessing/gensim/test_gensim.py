@@ -1,6 +1,3 @@
-
-
-
 import os
 import gensim
 import numpy as np
@@ -11,8 +8,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def utilize_gensim():
-    embed_path = './pretrain/glove.6B.200d.txt'
+    embed_path = './pretrain/glove.6B.300d.txt'
     logger.info("Loading Glove Word Embedding")
+
     if os.path.exists(embed_path.replace(".txt", ".bin")):
         wv_from_text = gensim.models.KeyedVectors.load(embed_path.replace(".txt", ".bin"), mmap='r')
     else:
@@ -39,16 +37,16 @@ def utilize_gensim():
 
     # 在原始词向量的内容上添加pad_embedding 和 unk_embedding
     # 方便在模型中未知词和padding词的向量获取
-    unk_embed = np.random.randn(1, 200)
-    pad_embed = np.zeros(shape=(1, 200), dtype=np.float)
+    unk_embed = np.random.randn(1, 300)
+    pad_embed = np.zeros(shape=(1, 300), dtype=np.float)
     extral_embed = np.concatenate((pad_embed, unk_embed), axis=0)
 
     word_embed = np.concatenate((extral_embed, word_embed), axis=0)
     logger.info("Embedding shape: {}".format(word_embed.shape))
 
     # 保存到本地
-    np.save('./data/glove_word_embedding.npy', word_embed)
-    pd.to_pickle(word_vocab, './data/glove_word_vocab.pkl')
+    np.save('./data/glove_word_embedding_300d.npy', word_embed)
+    pd.to_pickle(word_vocab, './data/glove_word_vocab_300d.pkl')
 
     return wv_from_text
 
@@ -57,6 +55,21 @@ def most_similarity(wv_from_text):
     logger.info("Top-10 most similarity words:")
     logger.info(most_similar)
 
+
+def test_glove():
+    i = 0
+    path = './pre_train/glove.6B.200d.txt'
+    write_path = 'D:/TAM_Lab/TAMRepository/preprocessing/gensim/pretrain/example_glove.6B.200d.txt'
+    with open(write_path, 'w', encoding='utf-8') as fw:
+        with open(path, 'r', encoding='utf-8') as fr:
+            for line in fr:
+                fw.write(line)
+                i += 1
+                if i == 100:
+                    break
+
+
 if __name__ == '__main__':
     wv_from_text = utilize_gensim()
     most_similarity(wv_from_text=wv_from_text)
+    test_glove()

@@ -1,5 +1,5 @@
 # BERT NER
-This code is ported from [](https://github.com/kamalkraj/BERT-NER/tree/dev)
+This code is ported from [https://github.com/kamalkraj/BERT-NER/tree/dev](https://github.com/kamalkraj/BERT-NER/tree/dev)
 
 Use google BERT to do NER task
 
@@ -63,4 +63,3 @@ Each line represents the value of the evaluation metrics in the corresponding ca
 | micro avg    |    0.9030 | 0.9201 |   0.9115 |    5648 |
 | macro avg    |    0.7102 | 0.7261 |   0.7180 |    5648 |
 | weighted avg |    0.9045 | 0.9201 |   0.9122 |    5648 |
-

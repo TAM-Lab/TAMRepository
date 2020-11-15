@@ -100,9 +100,7 @@ nltk.download()
 
 2. 遇到punkt包加载错误：
 
-![image-20201115170625732](C:\Users\LeiBaoXin\AppData\Roaming\Typora\typora-user-images\image-20201115170625732.png)
-
-则将punkt文件夹保存到Searched in下给出的任一搜索路径下的nltk_data/文件夹下即可。
+将punkt文件夹保存到Searched in下给出的任一搜索路径下的nltk_data/文件夹下即可。
 
 punkt文件也在本仓库内给出，可以直接下载。
 

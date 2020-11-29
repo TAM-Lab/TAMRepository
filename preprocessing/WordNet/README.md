@@ -1,3 +1,5 @@
+
+
 # WordNet
 
 ## Introduction
@@ -59,14 +61,16 @@ from nltk.corpus import wordnet as wn
   ```
   >>>wn.synset("dog.n.01").lemmas()
   [Lemma('dog.n.01.dog'), Lemma('dog.n.01.domestic_dog'), Lemma('dog.n.01.Canis_familiaris')]
-```
+  ```
   
-  列出一个同义词集的所有词条的名称
+    列出一个同义词集的所有词条的名称
   
   ```
-  >>>wn.synset("dog.n.01").lemma_names()
-  ['dog', 'domestic_dog', 'Canis_familiaris']
+  wn.synset("dog.n.01").lemma_names()
+    ['dog', 'domestic_dog', 'Canis_familiaris']
   ```
+
+
 
 - 上位词集合、下位词集合
 

@@ -24,19 +24,17 @@ hc_mmhc将此文件夹导入Rstudio
  - 例如hc_algorithms:
     运行asia数据集，将100000数据集分为10个数据集进行分析，得到结果以下面为例：
 
-![https://raw.githubusercontent.com/TAM-Lab/TAMRepository/master/Education/Improved%20K2%20Bayesian%20network/images/%E5%9B%BE2.png]()
-
-![https://imgtu.com/i/c0iKjx]()
+[![c0iug1.png](https://z3.ax1x.com/2021/04/11/c0iug1.png)](https://imgtu.com/i/c0iug1)
 
   其中Asia 1[1]中显示的值是BIC值
 
  - new_K2_order.py（使用python）
  直接改变数据集就可以得到不同的结果topo 表示K2的输入序列，bic1 表示BIC值!
 
-![https://raw.githubusercontent.com/TAM-Lab/TAMRepository/master/Education/Improved%20K2%20Bayesian%20network/images/%E5%9B%BE3.png]()
+[![c0imC9.png](https://z3.ax1x.com/2021/04/11/c0imC9.png)](https://imgtu.com/i/c0imC9)
 
  - K2_test2（使用matlab）
  将new_K2_order.py中所获得的topo，作为K2_test2中order的值，最终得到相应的贝叶斯网络结构图
 
- ![https://raw.githubusercontent.com/TAM-Lab/TAMRepository/master/Education/Improved%20K2%20Bayesian%20network/images/%E5%9B%BE1.png]()
+[![c0iKjx.png](https://z3.ax1x.com/2021/04/11/c0iKjx.png)](https://imgtu.com/i/c0iKjx)
 

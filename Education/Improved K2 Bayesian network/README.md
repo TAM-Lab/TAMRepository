@@ -26,6 +26,8 @@ hc_mmhc将此文件夹导入Rstudio
 
 ![https://raw.githubusercontent.com/TAM-Lab/TAMRepository/master/Education/Improved%20K2%20Bayesian%20network/images/%E5%9B%BE2.png]()
 
+![https://imgtu.com/i/c0iKjx]()
+
   其中Asia 1[1]中显示的值是BIC值
 
  - new_K2_order.py（使用python）

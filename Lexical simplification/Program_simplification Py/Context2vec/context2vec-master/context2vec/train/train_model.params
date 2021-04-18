@@ -1,0 +1,6 @@
+model_file	train_model
+words_file	train_embeddings.targets
+unit	300
+deep/tyes
+drop_ratio	0.0
+#	D:/Google_load/context2vec-master/context2vec/train/train_context2vec.py

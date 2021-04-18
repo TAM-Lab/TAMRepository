@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jiayin@202.116.46.142:22">
+    <serverData>
+      <paths name="jiayin@202.116.46.142:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_241" local="$PROJECT_DIR$" />
+            <mapping local="D:/Googleload/BERT-LS-master" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sjy">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/jiayin" local="D:/Googleload/BERT-LS-master" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

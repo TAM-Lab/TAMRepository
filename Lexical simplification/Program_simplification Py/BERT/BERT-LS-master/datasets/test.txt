@@ -1,0 +1,1 @@
+in March 1992 , Linux version 0.95 was the first to be capable of running X . This large version number jump was due to a feeling that a version 1.0 with no major missing pieces was imminent .	pieces	35	1:parts	2:bits	3:components	4:information	4:elements	4:items	4:component	4:part	4:sections

@@ -1,0 +1,25 @@
+language: python
+
+sudo: enabled
+
+python:
+
+    - "3.5"
+
+env:
+
+    global:
+
+     - TRAVIS=true
+
+
+
+install:
+
+    - pip install -r requirements.txt
+
+
+
+script:
+
+    python preprocess.py --corpus_path corpora/literature_mini_bert.txt --vocab_path models/google_vocab.txt --dataset_path dataset.pt --processes_num 8 --target bert
